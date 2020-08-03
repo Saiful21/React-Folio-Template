@@ -6,4 +6,5 @@ This is a personal template that is made it react js, sass, and modern libraries
 1. Node Install
 2. React install
 3. open package.json file than-> see the dependencies
+4. Need to all packages intall 
 
