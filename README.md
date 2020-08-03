@@ -8,5 +8,5 @@ This is a personal template that is made it react js, sass, and modern libraries
 3. open package.json file than-> see the dependencies
 4. Need to all packages install 
 
-Please play the screenshot of Folio Template <img src="nfolio.png" alt="Folio">
+# Screenshot of the Folio Template: <img src="nfolio.png" alt="Folio">
 
