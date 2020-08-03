@@ -1,0 +1,100 @@
+.testi-main{
+    position: relative;
+    padding: 100px 0;
+}
+.testi-top{
+    padding-bottom: 50px;
+}
+.testi-top h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    color:#222;
+}
+.testi-top h2 span{
+    color:#e83e8c;
+}
+.testi-top h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color:#0c0c0c;
+}
+.testi-slider{
+    position: relative;
+}
+.testi-slider [class^="test-item-"]{
+    padding: 20px 0;
+}
+
+.testi-head img{
+    border-radius: 100px;
+    max-width: 140px;
+    margin: 0 auto 30px;
+    box-shadow: 1px 3px 50px#ececec;
+}
+.testi-head h3{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0;
+}
+.testi-head h6{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    color:#e83e8c;
+    margin-bottom: 20px;
+}
+.testi-slider .slick-prev::before,
+.testi-slider .slick-next::before{
+    font-size: 35px;
+    color:#e83e8c;
+    transition: all .2s linear;
+}
+.testi-slider .slick-next{
+    right: -45px;
+}
+.testi-slider .slick-prev{
+    left: -45px;
+}
+.slick-prev:hover::before, 
+.slick-prev:focus::before, 
+.slick-next:hover::before, 
+.slick-next:focus::before {
+    color:#222;
+}
+.testi-details{
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.testi-details p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color:#222;
+}
+.testi-details svg{
+    position: absolute;
+    right: 6%;
+    top:-30%;
+    font-size: 50px;
+    color: #e83e8c;
+    opacity: .5;
+    margin: 0 auto;
+}
+.testi-details .rating,
+.testi-details .rating svg{
+    position: relative;
+}
+.testi-details .rating ul{
+    padding: 0;
+}
+.testi-details .rating ul li{
+    display: inline-block;
+}
+.testi-details .rating ul li svg{
+    opacity: 1;
+    font-size: 25px;
+}

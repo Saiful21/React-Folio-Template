@@ -1,0 +1,109 @@
+.our-clients{
+    position: relative;
+    padding: 100px 0;
+    background: #eaedf2;
+}
+.our-client-top{
+    padding-bottom: 50px;
+}
+
+.our-client-top h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    color:#222;
+}
+.our-client-top h2 span{
+    color:#e83e8c;
+}
+.our-client-top h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color:#0c0c0c;
+}
+/*filters*/
+.clients-filter-area{
+    position: relative;
+    width: 100%;
+}
+.clients-filter-area ul{
+    padding:0;
+    margin-left: 19px;
+}
+.clients-filter-area ul li{
+    cursor: pointer;
+    display: inline-block;
+    list-style: none;
+    padding: 10px 15px;
+}
+.clients-filter-area ul li button{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    color:#e83e8c;
+    border-radius: 0;
+    border-color: #e83e8c;
+    padding: 15px 40px;
+    background: #fff;
+    transition: all .3s linear;
+    outline: 0;
+}
+.clients-filter-area ul li button:hover,
+.clients-filter-area ul li button:focus{
+    background: #222;
+    border-color: #222;
+}
+#filter-container{
+    margin-left: 19px;
+}
+#filter-container .filter-item{
+    display: inline-block;
+    margin: 15px;
+}
+/*media query*/
+
+@media (max-width: 1024px) {
+    .testi-slider .slick-prev {
+        left: -25px;
+        z-index: 999;
+    }
+    .testi-slider .slick-next {
+        right: -25px;
+    }
+}
+@media (max-width: 767px) {
+    .testi-slider .slick-prev {
+        left: 15px;
+        z-index: 999;
+    }
+    .testi-slider .slick-next {
+        right: 15px;
+    }
+    #filter-container .filter-item {
+        display: inline-block;
+        margin: 5px 10px;
+        width: 44%;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .testi-slider .slick-prev {
+        left: 15px;
+        z-index: 999;
+    }
+    .testi-slider .slick-next {
+        right: 15px;
+    }
+    .clients-filter-area ul li{
+        padding:10px;
+    }
+    .clients-filter-area ul li button{
+        padding:8px 12px;
+    }
+    #filter-container .filter-item {
+        width: auto;
+        margin: 15px auto;
+        right: 0;
+    }
+    
+}

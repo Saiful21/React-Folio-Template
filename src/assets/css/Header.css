@@ -1,0 +1,99 @@
+/*header*/
+.bg-light.fixed-top{
+    transition: all .5s linear;
+    background: transparent !important;
+}
+.bg-light.fixed-top.active{
+    transition: all .3s linear;
+    background: #e83e8c !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 15px;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link{
+    color:#fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all .2s linear;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus{
+    color: #e83e8c;
+    outline: 0;
+}
+.bg-light.fixed-top.active .navbar-light .navbar-brand:focus,
+.bg-light.fixed-top.active .navbar-light .navbar-brand:hover,
+.bg-light.fixed-top.active .navbar-light .navbar-nav .nav-link:hover,
+.bg-light.fixed-top.active .navbar-light .navbar-nav .nav-link:focus{
+    color:#222;
+}
+.bg-light.fixed-top.active .navbar-toggler,
+.bg-light.fixed-top .navbar-toggler{
+    border-color: #fff !important;
+}
+#head_top .navbar-light{
+   padding: 18px 0;
+}
+#head_top .navbar-light ul{
+    padding: 0;
+    margin: 0;
+}
+#head_top .navbar-light ul li{
+    display: inline-block;
+    list-style: none;
+}
+#head_top .navbar-light ul li.active_item a{
+    color: #e83e8c;
+}
+.bg-light.fixed-top.active .navbar-light ul li.active_item a{
+    color:#000!important;
+}
+#head_top .mr-auto{
+    margin: 0 auto !important;
+}
+#head_top button{
+    outline: 0;
+    padding: 8px 12px;
+    background:#fff;
+    transition: all .3s linear;
+}
+button .quote{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color:#e83e8c;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s linear;
+}
+
+#head_top button:hover{
+    background: #e83e8c;
+}
+#head_top button:hover .quote{
+    color:#fff;
+} 
+
+@media (min-width: 320px) and (max-width: 1000px) {
+    #head_top .navbar-light ul li{
+        display: block;
+    }
+    #head_top .navbar-light .navbar-toggler{
+        padding:10px 10px 0;
+        outline: 0;
+        background: transparent;
+    }
+    #head_top .navbar-light .navbar-toggler-icon{
+        background:url('../image/menu1.png') no-repeat !important;
+        width: 30px;
+    }
+    #head_top .form-inline{
+        display: block;
+        margin: 30px auto;
+    }
+}
+
+

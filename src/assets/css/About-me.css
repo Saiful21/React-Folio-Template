@@ -1,0 +1,181 @@
+/*about me*/
+.about-me{
+    padding:100px 0 150px;
+}
+.about-details {
+    padding-bottom: 50px;
+}
+.about-details h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+    color:#222;
+}
+.about-details h2 span{
+    color: #e83e8c;
+}
+.about-details h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color:#0c0c0c;
+}
+.profile-imag {
+    -webkit-box-shadow: 0px 2px 32px -10px rgba(232,62,140,1);
+    -moz-box-shadow: 0px 2px 32px -10px rgba(232,62,140,1);
+    box-shadow: 0px 2px 32px -10px rgba(232,62,140,1);
+    border: 12px solid #e83e8c;
+}
+.social-profile{
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.social-profile a{
+    padding:0;
+    text-decoration: none;
+}
+.social-profile .fb-icon svg,
+.social-profile .fb-icon i{
+    color:#3b5998;
+}
+.social-profile .lk-icon svg,
+.social-profile .lk-icon i{
+    color:#0077b5;
+}
+.social-profile .tw-icon svg,
+.social-profile .tw-icon i{
+    color:#1da1f2;
+}
+.social-profile .pt-icon svg,
+.social-profile .pt-icon i{
+    color:#bd081c;
+}
+.social-profile a svg,
+.social-profile a i{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 50px;
+    background:#fff;
+    padding: 6px 10px;
+    transition: all .3s linear;
+}
+.social-profile a svg:hover,
+.social-profile a i:hover{
+    background: #e83e8c;
+    color:#fff;
+}
+.profile-imag img{
+    width: 100%;
+}
+.profile-details{
+    text-align: left;
+}
+.profile-details h3{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    color:#222;
+}
+.profile-details h5{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #0c0c0c;
+    margin: 0 0 15px;
+}
+.profile-details h5 span{
+    font-weight: 800;
+    color:#000;
+}
+.profile-details p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.address .common h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+.address .common p{
+    font-size: 16px;
+    margin-bottom: 15px;
+    color:#222;
+    line-height: 27px;
+}
+.address .common p a{
+    color: #222;
+}
+.profile-details button{
+    padding:15px 50px;
+    background: #e83e8c;
+    text-decoration: none;
+    transition: all .3s linear;
+    margin-top: 30px;
+}
+.profile-details button:hover{
+    text-decoration: none;
+    background: #222;
+}
+.profile-details button a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    color:#fff;
+}
+.profile-details button i{
+    font-size: 22px;
+}
+/*Media*/
+@media (min-width: 769px) and (max-width: 1200px) {
+    .profile-imag{
+        margin-bottom: 80px;
+    }
+    .social-profile{
+        bottom: 87px;
+    }
+    .profile-details{
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .profile-imag{
+        margin-bottom: 80px;
+    }
+    .social-profile{
+        bottom: 87px;
+    }
+    .profile-details{
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .profile-imag{
+        margin-bottom: 80px;
+    }
+    .social-profile{
+        bottom: 87px;
+    }
+    .profile-details{
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .profile-imag{
+        margin-bottom: 80px;
+    }
+    .social-profile{
+        bottom: 87px;
+    }
+    .profile-details{
+        text-align: center;
+    }
+}

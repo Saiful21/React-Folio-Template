@@ -1,0 +1,157 @@
+.skill-bar{
+    position: relative;
+    padding: 100px 0;
+    background: #eaedf2;
+}
+.skill-top{
+    padding-bottom:50px;
+}
+.skill-top h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    color:#222;
+}
+.skill-top h2 span{
+    color: #e83e8c;
+}
+.skill-top h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color:#0c0c0c;
+}
+.skill-progress{
+    text-align: left;
+}
+.skill-progress .progress{
+    background: #fff !important;
+}
+.skill-progress .bg-success{
+    background-color: #e83e8c !important;
+}
+.skill-progress [class^='item-'] {
+    padding-bottom: 30px;
+}
+.skill-progress [class^='item-'] h3{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/*common*/
+.skill-exp,
+.skill-edu{
+    text-align: left;
+}
+.skill-exp h3,
+.skill-edu h3{
+    position: relative;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.skill-exp h3::before, .skill-edu h3::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    border-bottom: 3px solid #e83e8c;
+    bottom: 0;
+    width: 50%;
+}
+.divider {
+    padding: 20px 0;
+    width: 100%;
+}
+/*trophy*/
+.skill-trophy{
+    padding:15px 0;
+}
+.skill-trophy .common{
+    border-radius: 5px;
+    border: 1px solid #e83e8c;
+    padding: 25px 0;
+    margin-bottom: 30px;
+}
+.skill-trophy .common .icon svg,
+.skill-trophy .common .icon i{
+    font-size: 70px;
+    color:#e83e8c;
+}
+.skill-trophy .common .title p{
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+/*edu*/
+/*exp*/
+.education,
+.experience{
+    border-left: 3px solid #e83e8c;
+    text-align: left;
+}
+.edu-inner,
+.exp-inner{
+    display: flex;
+    margin: 30px auto;
+}
+.year-list{
+    position: relative;
+    align-self: flex-start;
+    flex: 0 0 150px;
+    max-width: 150px;
+    padding-left: 20px;
+}
+.year-list:before{
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: 6px;
+    height: 15px;
+    width: 15px;
+    border-radius: 100px;
+    background:#e83e8c;
+    border: 3px solid #e83e8c;
+}
+.year-list h5{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color:#0c0c0c;
+}
+
+.summary-list{
+    position: relative;
+    padding-left: 50px;
+}
+.summary-list::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 15px;
+    height: 1px;
+    width: 30px;
+    background:#e83e8c;
+}
+.summary-list h4{
+    font-size: 20px;
+    font-weight: 700;
+    color:#0c0c0c;
+    line-height: 30px;
+    margin: 0;
+}
+.summary-list h5{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color:#e83e8c;
+}
+.summary-list p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    color:#222;
+    margin: 0;
+}

@@ -1,0 +1,62 @@
+.service-point{
+    padding: 100px 0;
+}
+.service-top{
+    padding-bottom: 50px;
+}
+.service-top h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    color:#222;
+}
+.service-top h2 span{
+    color: #e83e8c;
+}
+.service-top h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color:#0c0c0c;
+}
+.service-item{
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid #e83e8c;
+    padding: 30px 30px 34px;
+    margin-bottom: 30px;
+    transition: all .2s linear;
+}
+.service-item:hover{
+    -webkit-box-shadow: 0px 2px 32px -10px rgba(232,62,140,1);
+    -moz-box-shadow: 0px 2px 32px -10px rgba(232,62,140,1);
+    box-shadow: 0px 2px 32px -10px rgba(232,62,140,1);
+}
+.service-item:hover h5{
+    color: #e83e8c;
+}
+.service-item:hover .icon svg,
+.service-item:hover .icon i{
+    color: #222222;
+}
+.service-item .icon svg,
+.service-item .icon i{
+    font-size: 70px;
+    line-height: 90px;
+    color: #e83e8c;
+    transition: all .2s linear;
+}
+.service-item .title h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 15px;
+    transition: all .2s linear;
+}
+.service-item .content p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color:#222;
+    margin: 0;
+}

@@ -1,0 +1,132 @@
+.footer-main{
+    position: relative;
+    background:#282c34;
+    padding:50px 0 30px;
+}
+.flogo{
+    text-align: left;
+}
+.flogo a{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+    color:#e83e8c;
+    text-decoration: none;
+}
+.ftitle h2{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+.fbutton{
+    text-align: right;
+}
+.fbutton button{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#e83e8c;
+    text-decoration: none;
+    line-height: 26px;
+    padding: 12px 25px;
+    transition: all .3s linear;
+    outline: 0;
+    background: #fff;
+}
+.fbutton button:hover{
+    color:#fff;
+    background: #e83e8c;
+}
+.fmenu{
+    padding: 30px 0 0;
+}
+.fmenu ul{
+    padding:0 0 30px;
+}
+.fmenu ul li{
+    list-style: none;
+    display: inline;
+    padding: 0 15px;
+}
+.fmenu ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    color:#fff;
+    text-decoration: none;
+    transition: all .3s linear;
+}
+.fmenu ul li a:hover{
+    color:#e83e8c;
+}
+.fmenu p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#fff;
+}
+/*media query*/
+@media (min-width: 769px) and (max-width: 1200px) {
+    .fbutton button{
+        padding: 10px 14px;
+    }
+}
+@media (max-width: 768px) {
+    .flogo {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .ftitle h2{
+        margin-bottom: 30px;
+    }
+    .fbutton {
+      text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    .flogo {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .ftitle h2{
+        margin-bottom: 30px;
+    }
+    .fbutton {
+      text-align: center;
+    }
+    .fbutton button{
+        font-size: 12px;
+        padding: 10px 14px;
+    }
+    .fmenu {
+        padding: 50px 0 0;
+    }
+    .fmenu ul li{
+        display: block;
+        padding-bottom: 25px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .flogo {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .ftitle h2{
+        margin-bottom: 30px;
+    }
+    .fbutton {
+      text-align: center;
+    }
+    .fbutton button{
+        font-size: 16px;
+        padding:14px 25px;
+    }
+    .fmenu {
+        padding: 50px 0 0;
+    }
+    .fmenu ul li{
+        display: block;
+        padding-bottom: 25px;
+    }
+}
