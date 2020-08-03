@@ -6,7 +6,7 @@ This is a personal template that is made it react js, sass, and modern libraries
 1. Node Install
 2. React install
 3. open package.json file than-> see the dependencies
-4. Need to all packages intall 
+4. Need to all packages install 
 
-Please play the screenshot of Folio Template <a href="#"><img src="nfolio.png" alt="Folio"></a>
+Please play the screenshot of Folio Template <img src="nfolio.png" alt="Folio">
 
